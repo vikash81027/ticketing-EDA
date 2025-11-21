@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tickets-mongo
-          image: 12221320/tickets-mongo:50
+          image: 12221320/tickets-mongo
 ---
 apiVersion: v1
 kind: Service
