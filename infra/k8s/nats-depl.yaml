@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nats
-        image: 12221320/nats:50
+        image: 12221320/nats:51
         args: [
         "-p",
         "4222",
