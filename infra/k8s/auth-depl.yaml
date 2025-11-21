@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: 12221320/auth:6
+          image: 12221320/ticketing:7
           ports:
             - containerPort: 4000
           env:

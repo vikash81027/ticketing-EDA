@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: 12221320/payments:6
+          image: 12221320/ticketing:7
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
