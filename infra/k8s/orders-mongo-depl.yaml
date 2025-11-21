@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders-mongo
-          image: mongo
+          image: 12221320/orders-mongo:2
 ---
 apiVersion: v1
 kind: Service
